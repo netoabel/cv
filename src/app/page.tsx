@@ -109,7 +109,6 @@ export default function Page() {
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
-
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
                           <Badge
@@ -123,31 +122,39 @@ export default function Page() {
                       </span>
                     </h3>
                   </div>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
-                      {work.title}
-                    </h4>
-                    <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end}
-                    </div>
-                  </div>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {(work.description.paragraphs?.map((item)=>{
+                <CardContent>
+                  {(work.roles?.map((role)=>{
                     return (
-                      <p key={item} className="mb-1">
-                          {item}
-                      </p>
-                    );
-                  }))}
-                </CardContent>
-                <CardContent className="mt-2 text-xs">
-                  {(work.bulletList.items?.map((item)=>{
-                    return (
-                      <p key={item} className="mb-1">
-                          <span className="mr-2">•</span>
-                          {item}
-                      </p>
+                      <Card key={role.title}>
+                        <CardHeader>
+                          <div className="flex items-center justify-between gap-x-2 text-base">
+                            <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
+                              {role.title}
+                            </h4>
+                            <div className="text-sm tabular-nums text-gray-500">
+                              {role.start} - {role.end}
+                            </div>
+                          </div>
+                        </CardHeader><CardContent className="mt-2 text-xs">
+                            {(role.description.paragraphs?.map((paragraph) => {
+                              return (
+                                <p key={paragraph} className="mb-1">
+                                  {paragraph}
+                                </p>
+                              );
+                            }))}
+                          </CardContent><CardContent className="mt-2 text-xs">
+                            {(role.bulletList.items?.map((item) => {
+                              return (
+                                <p key={item} className="mb-1">
+                                  <span className="mr-2">•</span>
+                                  {item}
+                                </p>
+                              );
+                            }))}
+                          </CardContent>
+                        </Card>
                     );
                   }))}
                 </CardContent>

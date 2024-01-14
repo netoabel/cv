@@ -1,4 +1,5 @@
 import LivUpLogo from "./livup.jpeg";
 import AndelaLogo from "./andela.jpeg";
+import CreditasLogo from "./creditas.jpeg";
 
-export { LivUpLogo, AndelaLogo };
+export { LivUpLogo, AndelaLogo, CreditasLogo };
