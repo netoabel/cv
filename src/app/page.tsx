@@ -122,14 +122,15 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
+                  </div>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
+                      {work.title}
+                    </h4>
                     <div className="text-sm tabular-nums text-gray-500">
                       {work.start} - {work.end}
                     </div>
                   </div>
-
-                  <h4 className="font-mono text-sm leading-none">
-                    {work.title}
-                  </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
                   {(work.description.paragraphs?.map((item)=>{
