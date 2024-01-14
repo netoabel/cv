@@ -132,7 +132,23 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {(work.description.paragraphs?.map((item)=>{
+                    return (
+                      <p key={item} className="mb-1">
+                          {item}
+                      </p>
+                    );
+                  }))}
+                </CardContent>
+                <CardContent className="mt-2 text-xs">
+                  {(work.bulletList.items?.map((item)=>{
+                    return (
+                      <p key={item} className="mb-1">
+                          <span className="mr-2">•</span>
+                          {item}
+                      </p>
+                    );
+                  }))}
                 </CardContent>
               </Card>
             );
@@ -166,26 +182,9 @@ export default function Page() {
             })}
           </div>
         </Section>
-
-        <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.projects.map((project) => {
-              return (
-                <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                />
-              );
-            })}
-          </div>
-        </Section>
       </section>
 
-      <CommandMenu
+      {/* <CommandMenu
         links={[
           {
             url: RESUME_DATA.personalWebsiteUrl,
@@ -196,7 +195,7 @@ export default function Page() {
             title: socialMediaLink.name,
           })),
         ]}
-      />
+      /> */}
     </main>
   );
 }
