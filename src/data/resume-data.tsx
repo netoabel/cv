@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   location: "São Paulo - SP, Brazil",
   locationLink: "https://google.com/maps/place/S%C3%A3o%20Paulo",
   about:
-    "Senior Engineering Manager focused on digital product development in VC-backed startups",
+    "Senior Engineering Manager focused on digital product development in startups",
   summary:
     "",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQGo24nJfkqTzA/profile-displayphoto-shrink_800_800/0/1683298564628?e=1710979200&v=beta&t=ExMP0S-0PhvWD9k9TbARxD5ceIw5IvaSJ7xQAYSvTA0",
