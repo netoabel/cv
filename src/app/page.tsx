@@ -128,7 +128,7 @@ export default function Page() {
                     return (
                       <Card key={role.title}>
                         <CardHeader>
-                          <div className="flex items-center justify-between gap-x-2 text-base">
+                          <div className="flex items-center justify-between gap-x-2 text-base mt-2">
                             <h4 className="inline-flex items-center justify-center gap-x-1 font-mono text-sm leading-none">
                               {role.title}
                             </h4>

@@ -2,6 +2,7 @@ import {
   LivUpLogo,
   AndelaLogo,
   CreditasLogo,
+  PostgrainLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -144,37 +145,121 @@ export const RESUME_DATA = {
           },
         },
         {
-          title: "Senior Engineering Manager",
-          start: "2023",
-          end: "Present",
+          title: "Software Engineering Lead",
+          start: "2019",
+          end: "2020",
           description: {
             paragraphs:[
-              ""
+              "As an Engineering Lead, I was responsible for coordinating two squads, managing developers directly, improving processes, tracking metrics and ensuring continuous delivery.",
+              "Some of my responsibilities were:"
             ],
           },
           bulletList: {
-            items: []
+            items: [
+              "Direct management of the developers (1: 1’s, IDP, performance review);",
+              "Defining and tracking squad objectives, in collaboration with the product manager;",
+              "Defining and improving squad processes, in collaboration with the squad members;",
+              "Planning large initiatives into small value deliverables, in collaboration with the team;",
+              "Roadmap building, in collaboration with the product manager;",
+              "Alignment with business stakeholders;",
+              "Alignment with other squads.",
+            ]
+          },
+        },
+        {
+          title: "Agile Coach",
+          start: "2018",
+          end: "2019",
+          description: {
+            paragraphs:[
+              "As an Agile Coach, I was responsible for 3 squads. My role was to promote continuous improvement of those teams, influencing them to adhere to the principles and values of the Manifesto for Agile Software Development.",
+              "Some of my responsibilities were:"
+            ],
+          },
+          bulletList: {
+            items: [
+              "Doing the value stream mapping of the squads;", 
+              "Proposing process improvements;", 
+              "Defining, in collaboration with the squads, their processes, tools and rituals;", 
+              "Agile development coaching with engineering leads and product managers;", 
+              "Agile development coaching with developers;", 
+              "Tracking team metrics;", 
+              "Facilitation (when necessary) of team rituals;", 
+              "Facilitation of Story Mappings and guidance on breaking large projects into small deliverables.", 
+            ]
           },
         },
       ],
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Postgrain",
+      link: "https://postgrain.com",
       badges: [],
-      logo: AndelaLogo,
+      logo: PostgrainLogo,
       roles: [
         {
-          title: "C/C++ Developer",
-          start: "2010",
-          end: "2012",
+          title: "Chief Technology Officer",
+          start: "2017",
+          end: "2018",
           description: {
             paragraphs:[
-              ""
+              "Postgrain is a social media profile management tool for freelancers and advertising agencies that allows the administration of multiple accounts in one place, including replying to messages, publications calendar/scheduling, among other features.",
+              "As CTO, I was responsible for the technology team (8 people), doing everything from developer management to strategic planning in collaboration with other company executives.",
+              "Some of my responsibilities were:",
             ],
           },
           bulletList: {
-            items: []
+            items: [
+              "Definition of the company's vision, mission and values, in collaboration with the leadership team;",
+              "Definition of the company's short, medium and long term goals, in collaboration with the leadership team;",
+              "Definition and promotion of technology culture in the company;",
+              "Definition of the technology strategy, in collaboration with the developers;",
+              "Monitoring and maintaining the infrastructure of development and production environments, in collaboration with the developers;",
+              "Hiring management;",
+              "Building a career ladder for developers;",
+              "Performance reviews of developers;",
+              "Involvement in architectural discussions and review of some technical solutions.",
+            ]
+          },
+        },
+        {
+          title: "Software Development Lead",
+          start: "2016",
+          end: "2017",
+          description: {
+            paragraphs:[
+              "As a software development lead, I was responsible for leading developers and ensuring the team’s continuous delivery of value.",
+              "Some of my responsibilities were:",
+            ],
+          },
+          bulletList: {
+            items: [
+              "1:1's with developers;",
+              "Performance reviews;",
+              "Definition of the team's processes and rituals, in collaboration with the developers;",
+              "Software development in Node.js and code-review of some features;",
+              "Mentoring of interns and developers;",
+              "Definition and monitoring of team and product KPIs.",
+            ]
+          },
+        },
+        {
+          title: "Node.js Developer",
+          start: "2016",
+          end: "2016",
+          description: {
+            paragraphs:[
+              "As a Node.js developer, I was responsible for implementing and maintaining a background job management system, responsible for executing the actions/interactions scheduled by the user through the web interface, by using the social media platforms APIs.",
+              "I worked directly with:",
+            ],
+          },
+          bulletList: {
+            items: [
+              "Node.js;",
+              "RabbitMQ;",
+              "Docker;",
+              "PostgreSQL.",
+            ]
           },
         }
       ],
