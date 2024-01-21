@@ -2,7 +2,11 @@ import {
   LivUpLogo,
   AndelaLogo,
   CreditasLogo,
-  PostgrainLogo
+  PostgrainLogo,
+  BuyttleLogo, 
+  DuitLogo,
+  TempestLogo,
+  IpSolutionsLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -12,7 +16,7 @@ export const RESUME_DATA = {
   location: "São Paulo - SP, Brazil",
   locationLink: "https://google.com/maps/place/S%C3%A3o%20Paulo",
   about:
-    "Senior Engineering Manager focused on digital product development in startups",
+    "Senior Software Engineering Manager focused on digital product development in startups",
   summary:
     "",
   avatarUrl: "https://media.licdn.com/dms/image/D4E03AQGo24nJfkqTzA/profile-displayphoto-shrink_800_800/0/1683298564628?e=1710979200&v=beta&t=ExMP0S-0PhvWD9k9TbARxD5ceIw5IvaSJ7xQAYSvTA0",
@@ -54,7 +58,7 @@ export const RESUME_DATA = {
       logo: AndelaLogo,
       roles: [
         {
-          title: "Senior Engineering Manager",
+          title: "Senior Software Engineering Manager",
           start: "2023",
           end: "Present",
           description: {
@@ -264,14 +268,112 @@ export const RESUME_DATA = {
         }
       ],
     },
+    {
+      company: "Buyttle",
+      link: "",
+      badges: [],
+      logo: BuyttleLogo,
+      roles: [
+        {
+          title: "Game Developer",
+          start: "2015",
+          end: "2016",
+          description: {
+            paragraphs:[
+              "Buyttle is a startup that develops a real-time multiplayer browser game (www.buyttle.com) in which people battle for prizes and discounts.",
+              "As a game developer, I was responsible for the implementation and maintenance of the game itself (that is only a part of the whole thing), as well as the game architecture design (under the supervision/orientation of the company's CTO).",
+              "I have worked directly with:"
+            ],
+          },
+          bulletList: {
+            items: [
+              "Javascript/Node.js (client and server sides of the game);",
+              "WebSockets;",
+              "HTML5 Canvas;",
+              "Isogenic Game Engine;",
+              "Docker;",
+              "Clean Code",
+              "Test-driven Development;",
+              "Entity Component System Architecture.",
+            ]
+          },
+        }
+      ],
+    },
+    {
+      company: "duit",
+      link: "https://duit.works",
+      badges: [],
+      logo: DuitLogo,
+      roles: [
+        {
+          title: "Software Developer",
+          start: "2014",
+          end: "2015",
+          description: {
+            paragraphs:[
+              "Duit is a startup in which I worked on two projects: CoteAqui, a marketplace for construction companies and suppliers, and Platinum, an ERP for orthopedic prosthesis distributors.",
+              "For these projects, I've worked with:",
+            ],
+          },
+          bulletList: {
+            items: [
+              "JavaScript/Node.js;",
+              "HTML/CSS;",
+              "jQuery;",
+              "Bootstrap;",
+              "Java/Play Framework."
+            ]
+          },
+        }
+      ],
+    },
+    {
+      company: "Tempest Security Intelligence",
+      link: "https://tempest.com.br/",
+      badges: [],
+      logo: TempestLogo,
+      roles: [
+        {
+          title: "Information Security Analyst",
+          start: "2011",
+          end: "2014",
+          description: {
+            paragraphs:[
+              "At Tempest, I worked in a Security Operations Center, where I was responsible for monitoring event logs from many network devices from our customers' networks. My role was to detect threats and attack patterns, as well as anomalous behaviors that could put the company at risk."
+            ],
+          },
+          bulletList: {
+            items: []
+          },
+        }
+      ],
+    },
+    {
+      company: "IP Solutions",
+      link: "https://ipsolutions.net.br",
+      badges: [],
+      logo: IpSolutionsLogo,
+      roles: [
+        {
+          title: "Systems Administrator",
+          start: "2008",
+          end: "2011",
+          description: {
+            paragraphs:[
+              "As a System Administrator, I was responsible for the configuration and implantation of services and tools like Microsoft Active Directory, Squid, SNMPc Network Manager, Kiwi Syslog Daemon."
+            ],
+          },
+          bulletList: {
+            items: []
+          },
+        }
+      ],
+    },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
   ],
 } as const;
