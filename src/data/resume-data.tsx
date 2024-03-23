@@ -22,7 +22,7 @@ export const RESUME_DATA = {
     "Senior Software Engineering Manager focused on digital product development in startups",
   summary:
     "",
-  avatarUrl: "https://abel.sh/profile.jpg",
+  avatarUrl: ProfilePicture,
   personalWebsiteUrl: "https://abel.sh",
   contact: {
     email: "neto@abel.sh",
