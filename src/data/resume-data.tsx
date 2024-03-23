@@ -8,9 +8,6 @@ import {
   TempestLogo,
   IpSolutionsLogo
 } from "@/images/logos";
-import {
-  ProfilePicture
-} from "@/images";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -22,7 +19,7 @@ export const RESUME_DATA = {
     "Senior Software Engineering Manager focused on digital product development in startups",
   summary:
     "",
-  avatarUrl: ProfilePicture,
+  avatarUrl: "/profile.jpg",
   personalWebsiteUrl: "https://abel.sh",
   contact: {
     email: "neto@abel.sh",
