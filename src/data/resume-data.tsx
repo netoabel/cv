@@ -8,6 +8,9 @@ import {
   TempestLogo,
   IpSolutionsLogo
 } from "@/images/logos";
+import {
+  ProfilePicture
+} from "@/images";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
