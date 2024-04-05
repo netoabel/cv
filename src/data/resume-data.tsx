@@ -63,11 +63,22 @@ export const RESUME_DATA = {
           end: "Present",
           description: {
             paragraphs:[
-              ""
+              "Andela is a global talent marketplace that helps companies hire people from all around the world. They select and qualify talents to then add them into a pool, the Andela Talent Cloud. With the help of AI and a range of digital products, companies can get talent recommendations and easily hire the right people for their jobs.",
+              "As a senior engineering manager, I'm currently responsible for two cross-product teams: DevOps and Platform. Both teams are core to the development of multiple interconnected products while providing the best development experience possible to the software engineers.",
+              "My responsibilities include:"
             ],
           },
           bulletList: {
-            items: []
+            items: [
+              "Defining and prioritizing the team's roadmaps based on user needs and business problems;",
+              "Aligning and communicating with stakeholders on initiative scope and timelines;",
+              "Direct management of engineers and tech leads;",
+              "Conducting performance reviews for both leaders and individual contributors",
+              "Facilitating technical discussions and product discovery sessions",
+              "Establishing processes and practices to improve team efficiency",
+              "Building and maintaining an environment of psychological safety and inclusion in the team;",
+              "Hiring management.",
+            ]
           },
         }
       ],
@@ -84,22 +95,22 @@ export const RESUME_DATA = {
           end: "2022",
           description: {
             paragraphs:[
-              "Liv Up is a food company that delivers convenient, healthy and tasty food. Its main product is a line of frozen meals made with natural ingredients only, which are not ultra-processed and undergo a special deep-freezing process.",
-              "As a senior engineering manager at Liv Up, I was responsible for the engineering teams that took care of the development and maintenance of all the operation's systems, from the relationship with raw material suppliers, through storage, processing of ingredients, production of recipes, to the stock of finished products and their distribution and delivery to the end customer.",
+              "Liv Up is a food company that delivers convenient, healthy, and tasty food. Its main product is a line of frozen meals made with natural ingredients only, which are not ultra-processed and undergo a special deep-freezing process.",
+              "As a senior engineering manager at Liv Up, I was responsible for the engineering teams that took care of the development and maintenance of all the operation's systems, from the relationship with raw material suppliers through storage, processing of ingredients, production of recipes, to the stock of finished products and their distribution and delivery to the end customer.",
               "Some of my responsibilities were:",
             ],
           },
           bulletList: {
             items: [
               "Direct management of engineering managers;",
-              "Defining and tracking OKR's for the tribe in collaboration with the group product manager and squad members;",
-              "Conducting event storming sessions alongside with the tech leads to discover and define DDD based sub-domains inside the tribe;",
+              "Defining and tracking OKRs for the tribe in collaboration with the group product manager and squad members;",
+              "Conducting event storming sessions alongside the tech leads to discover and define DDD-based sub-domains inside the tribe;",
               "Defining the organizational structure of the tribe based on business sub-domains so it remains stable in the long run;",
               "Coordinating the tribe's performance review process for the engineering teams;",
               "Structuring and coordinating company-wide tech strategy meetings with tech leads and principal engineer;",
-              "Structuring and coordinating company-wide software engineering all-hands meeting, for the purposes of team building, knowledge sharing and strategic follow-ups;",
+              "Structuring and coordinating company-wide software engineering all-hands meeting, for the purposes of team building, knowledge sharing, and strategic follow-ups;",
               "Mapping values, principles and practices shared by most software engineering teams; ",
-              "Writing documentation on software engineering leadership roles, engineering culture, tech strategy and rituals;",
+              "Writing documentation on software engineering leadership roles, engineering culture, tech strategy, and rituals;",
               "Building and maintaining an environment of psychological safety and inclusion in the tribe;",
               "Structuring the tribe's rituals;",
               "Organizing processes and rituals for the tribe's engineering leadership team;",
@@ -124,7 +135,7 @@ export const RESUME_DATA = {
           description: {
             paragraphs:[
               "Creditas is a financial solutions platform that helps people achieve their goals by providing access to credit in a simple and integrated way.",
-              "As an engineering tribe lead for Creditas’ Auto Equity product, I was responsible for coordinating the work of six squads, managing the leaders of those squads, working on the strategic and tactical plans for the tribe and coordinating the execution.",
+              "As an engineering tribe lead for Creditas’ Auto Equity product, I was responsible for coordinating the work of six squads, managing the leaders of those squads, working on the strategic and tactical plans for the tribe, and coordinating the execution.",
               "Some of my responsibilities were:",
             ],
           },
@@ -137,9 +148,9 @@ export const RESUME_DATA = {
               "Coordinating the tribe's performance review process (engineering);",
               "Building and maintaining an environment of psychological safety and inclusion in the tribe;",
               "Structuring the tribe's rituals;",
-              "Organizing processes and rituals for the tribe's leadership team (product, tech and design);",
+              "Organizing processes and rituals for the tribe's leadership team (product, tech, and design);",
               "Guiding process changes and definitions in the squads;",
-              "Building the roadmap in collaboration with the lead PM, engineering leads and PMs;",
+              "Building the roadmap in collaboration with the lead PM, engineering leads, and PMs;",
               "Alignment with business stakeholders;",
               "Alignment with other tribes and products;",
               "Keep communication flowing between the strategic and operational layers, in both directions;",
@@ -154,7 +165,7 @@ export const RESUME_DATA = {
           end: "2020",
           description: {
             paragraphs:[
-              "As an Engineering Lead, I was responsible for coordinating two squads, managing developers directly, improving processes, tracking metrics and ensuring continuous delivery.",
+              "As an Engineering Lead, I was responsible for coordinating two squads, managing developers directly, improving processes, tracking metrics, and ensuring continuous delivery.",
               "Some of my responsibilities were:"
             ],
           },
@@ -184,7 +195,7 @@ export const RESUME_DATA = {
             items: [
               "Doing the value stream mapping of the squads;", 
               "Proposing process improvements;", 
-              "Defining, in collaboration with the squads, their processes, tools and rituals;", 
+              "Defining, in collaboration with the squads, their processes, tools, and rituals;", 
               "Agile development coaching with engineering leads and product managers;", 
               "Agile development coaching with developers;", 
               "Tracking team metrics;", 
